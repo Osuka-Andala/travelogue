@@ -58,12 +58,12 @@ body {
 
 a {
 	text-decoration: none;
-	color: #5C5EDC;
+	color: grey;
 	outline: none;
 }
 
 a:focus {
-	color: #ddd;
+	color: purple;
 }
 
 a:hover {
@@ -159,7 +159,7 @@ a:hover {
 
 .bp-header nav a:hover:before {
 	content: attr(data-info);
-	color: #595A5F;
+	color: green;
 	font-weight: bold;
 	font-size: 0.85em;
 	position: absolute;
